@@ -9,6 +9,7 @@
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -59,7 +60,7 @@
   <node concept="1TIwiD" id="78eQDyb0IIO">
     <property role="TrG5h" value="Sensor" />
     <property role="EcuMT" value="8218746718699842484" />
-    <property role="34LRSv" value="&lt;Sensor_Alias&gt;" />
+    <property role="34LRSv" value="Sensor" />
     <ref role="1TJDcQ" node="78eQDyb0OGG" resolve="Brick" />
     <node concept="1TJgyi" id="79u6$drU3ol" role="1TKVEl">
       <property role="IQ2nx" value="8241053244741662229" />
@@ -136,8 +137,8 @@
     </node>
     <node concept="1TJgyj" id="5BVoFE7aTUw" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="transition" />
-      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="transitions" />
+      <property role="20lbJX" value="1..n" />
       <property role="IQ2ns" value="6483884641801182880" />
       <ref role="20lvS9" node="5BVoFE7aTS0" resolve="Transition" />
     </node>
@@ -168,19 +169,17 @@
       <property role="IQ2nx" value="6483884641801182748" />
       <ref role="AX2Wp" node="5BVoFE7aTSL" resolve="STATUS" />
     </node>
+    <node concept="1TJgyi" id="69mQjAuuy$C" role="1TKVEl">
+      <property role="IQ2nx" value="7086089905209223464" />
+      <property role="TrG5h" value="target" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyj" id="5BVoFE7aTSu" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="sensor" />
       <property role="20lbJX" value="1" />
       <property role="IQ2ns" value="6483884641801182750" />
       <ref role="20lvS9" node="78eQDyb0IIO" resolve="Sensor" />
-    </node>
-    <node concept="1TJgyj" id="5BVoFE7bb5N" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="target" />
-      <property role="20lbJX" value="1" />
-      <property role="IQ2ns" value="6483884641801253235" />
-      <ref role="20lvS9" node="5BVoFE7aToI" resolve="State" />
     </node>
   </node>
   <node concept="AxPO7" id="5BVoFE7aTSL">
@@ -238,6 +237,12 @@
     </node>
     <node concept="PrWs8" id="79u6$drXg$X" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="20XqqltyqZm" role="1TKVEi">
+      <property role="IQ2ns" value="2323129141752868822" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="pins" />
+      <ref role="20lvS9" to="tpee:gPCKINj" resolve="Number" />
     </node>
   </node>
 </model>

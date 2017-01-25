@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root>
+    <file name="QueriesGenerated.java">
+      <unit at="15,0,101,0" name="KonamiML.generator.template.main.QueriesGenerated" />
+    </file>
+  </root>
+  <root nodeRef="r:0b21cc25-f094-41b0-ac68-004fc5929eb8(KonamiML.generator.template.main@generator)/2323129141752908877">
+    <file name="QueriesGenerated.java">
+      <node id="7086089905209172756" at="17,112,18,74" concept="3" />
+      <node id="7086089905209577808" at="20,112,21,30" concept="2" />
+      <node id="7086089905209741054" at="22,207,23,75" concept="2" />
+      <node id="7086089905209577811" at="23,75,24,31" concept="0" />
+      <node id="7086089905209577823" at="25,452,26,32" concept="0" />
+      <node id="7086089905209577838" at="28,5,29,18" concept="3" />
+      <node id="7086089905209668052" at="31,112,32,30" concept="2" />
+      <node id="7086089905209793154" at="33,207,34,75" concept="2" />
+      <node id="7086089905209793162" at="34,75,35,31" concept="0" />
+      <node id="7086089905210738263" at="36,452,37,32" concept="0" />
+      <node id="7086089905209668091" at="39,5,40,18" concept="3" />
+      <node id="7086089905209676762" at="42,112,43,30" concept="2" />
+      <node id="7086089905209797033" at="44,207,45,75" concept="2" />
+      <node id="7086089905209797041" at="45,75,46,31" concept="0" />
+      <node id="7086089905210740562" at="47,452,48,32" concept="0" />
+      <node id="7086089905209676801" at="50,5,51,18" concept="3" />
+      <node id="7086089905209686692" at="53,112,54,30" concept="2" />
+      <node id="7086089905209800911" at="55,207,56,75" concept="2" />
+      <node id="7086089905209800919" at="56,75,57,31" concept="0" />
+      <node id="7086089905210742812" at="58,452,59,32" concept="0" />
+      <node id="7086089905209686731" at="61,5,62,18" concept="3" />
+      <node id="7086089905209577821" at="24,31,27,7" concept="1" />
+      <node id="7086089905210738261" at="35,31,38,7" concept="1" />
+      <node id="7086089905210740560" at="46,31,49,7" concept="1" />
+      <node id="7086089905210742810" at="57,31,60,7" concept="1" />
+      <node id="7086089905209608694" at="21,30,28,5" concept="1" />
+      <node id="7086089905209668056" at="32,30,39,5" concept="1" />
+      <node id="7086089905209676766" at="43,30,50,5" concept="1" />
+      <node id="7086089905209686696" at="54,30,61,5" concept="1" />
+      <scope id="7086089905209166554" at="17,112,18,74" />
+      <scope id="7086089905209577822" at="25,452,26,32" />
+      <scope id="7086089905210738262" at="36,452,37,32" />
+      <scope id="7086089905210740561" at="47,452,48,32" />
+      <scope id="7086089905210742811" at="58,452,59,32" />
+      <scope id="7086089905209608696" at="22,207,27,7">
+        <var name="index" id="7086089905209741057" />
+      </scope>
+      <scope id="7086089905209668057" at="33,207,38,7">
+        <var name="index" id="7086089905209793155" />
+      </scope>
+      <scope id="7086089905209676767" at="44,207,49,7">
+        <var name="index" id="7086089905209797034" />
+      </scope>
+      <scope id="7086089905209686697" at="55,207,60,7">
+        <var name="index" id="7086089905209800912" />
+      </scope>
+      <scope id="7086089905209577262" at="20,112,29,18">
+        <var name="target" id="7086089905209577809" />
+      </scope>
+      <scope id="7086089905209579803" at="31,112,40,18">
+        <var name="target" id="7086089905209668053" />
+      </scope>
+      <scope id="7086089905209582346" at="42,112,51,18">
+        <var name="target" id="7086089905209676763" />
+      </scope>
+      <scope id="7086089905209584897" at="53,112,62,18">
+        <var name="target" id="7086089905209686693" />
+      </scope>
+    </file>
+  </root>
+  <root nodeRef="r:0b21cc25-f094-41b0-ac68-004fc5929eb8(KonamiML.generator.template.main@generator)/2323129141752975856">
+    <file name="QueriesGenerated.java">
+      <node id="7086089905209812187" at="64,112,65,30" concept="2" />
+      <node id="7086089905209812193" at="66,400,67,20" concept="2" />
+      <node id="7086089905209812201" at="67,20,68,31" concept="0" />
+      <node id="7086089905209812230" at="69,5,70,18" concept="3" />
+      <node id="7086089905209967259" at="72,112,73,30" concept="2" />
+      <node id="7086089905209967265" at="74,400,75,20" concept="2" />
+      <node id="7086089905209967269" at="75,20,76,31" concept="0" />
+      <node id="7086089905209967286" at="77,5,78,18" concept="3" />
+      <node id="7086089905209970573" at="80,112,81,30" concept="2" />
+      <node id="7086089905209970579" at="82,400,83,20" concept="2" />
+      <node id="7086089905209970583" at="83,20,84,31" concept="0" />
+      <node id="7086089905209970600" at="85,5,86,18" concept="3" />
+      <node id="7086089905209975245" at="88,112,89,30" concept="2" />
+      <node id="7086089905209975251" at="90,400,91,20" concept="2" />
+      <node id="7086089905209975255" at="91,20,92,31" concept="0" />
+      <node id="7086089905209975272" at="93,5,94,18" concept="3" />
+      <node id="7086089905210463791" at="96,120,97,255" concept="0" />
+      <node id="3288703939480667517" at="97,255,98,192" concept="3" />
+      <node id="7086089905209822473" at="65,30,69,5" concept="1" />
+      <node id="7086089905209967263" at="73,30,77,5" concept="1" />
+      <node id="7086089905209970577" at="81,30,85,5" concept="1" />
+      <node id="7086089905209975249" at="89,30,93,5" concept="1" />
+      <scope id="7086089905209822475" at="66,400,68,31">
+        <var name="index" id="7086089905209812194" />
+      </scope>
+      <scope id="7086089905209967264" at="74,400,76,31">
+        <var name="index" id="7086089905209967266" />
+      </scope>
+      <scope id="7086089905209970578" at="82,400,84,31">
+        <var name="index" id="7086089905209970580" />
+      </scope>
+      <scope id="7086089905209975250" at="90,400,92,31">
+        <var name="index" id="7086089905209975252" />
+      </scope>
+      <scope id="3288703939480667511" at="96,120,98,192" />
+      <scope id="7086089905209805048" at="64,112,70,18">
+        <var name="target" id="7086089905209812188" />
+      </scope>
+      <scope id="7086089905209966542" at="72,112,78,18">
+        <var name="target" id="7086089905209967260" />
+      </scope>
+      <scope id="7086089905209969986" at="80,112,86,18">
+        <var name="target" id="7086089905209970574" />
+      </scope>
+      <scope id="7086089905209974658" at="88,112,94,18">
+        <var name="target" id="7086089905209975246" />
+      </scope>
+    </file>
+  </root>
+</debug-info>
+
