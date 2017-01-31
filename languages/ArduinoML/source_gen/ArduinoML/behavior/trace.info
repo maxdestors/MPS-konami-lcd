@@ -7,6 +7,9 @@
     <file name="Actuator_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ArduinoML.behavior.Actuator_BehaviorDescriptor" />
     </file>
+    <file name="AnalogTransition_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="ArduinoML.behavior.AnalogTransition_BehaviorDescriptor" />
+    </file>
     <file name="App_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ArduinoML.behavior.App_BehaviorDescriptor" />
     </file>
@@ -16,6 +19,12 @@
     <file name="Brick_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ArduinoML.behavior.Brick_BehaviorDescriptor" />
     </file>
+    <file name="DigitalTransition_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="ArduinoML.behavior.DigitalTransition_BehaviorDescriptor" />
+    </file>
+    <file name="ITransition_BehaviorDescriptor.java">
+      <unit at="11,0,14,0" name="ArduinoML.behavior.ITransition_BehaviorDescriptor" />
+    </file>
     <file name="LCD_init_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ArduinoML.behavior.LCD_init_BehaviorDescriptor" />
     </file>
@@ -24,9 +33,6 @@
     </file>
     <file name="State_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ArduinoML.behavior.State_BehaviorDescriptor" />
-    </file>
-    <file name="Transition_BehaviorDescriptor.java">
-      <unit at="11,0,17,0" name="ArduinoML.behavior.Transition_BehaviorDescriptor" />
     </file>
   </root>
 </debug-info>

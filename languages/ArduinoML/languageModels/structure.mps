@@ -31,6 +31,7 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -140,7 +141,7 @@
       <property role="20kJfa" value="transitions" />
       <property role="20lbJX" value="1..n" />
       <property role="IQ2ns" value="6483884641801182880" />
-      <ref role="20lvS9" node="5BVoFE7aTS0" resolve="Transition" />
+      <ref role="20lvS9" node="7ztUcxeytMI" resolve="ITransition" />
     </node>
   </node>
   <node concept="1TIwiD" id="5BVoFE7aTCq">
@@ -161,35 +162,27 @@
     </node>
   </node>
   <node concept="1TIwiD" id="5BVoFE7aTS0">
-    <property role="TrG5h" value="Transition" />
+    <property role="TrG5h" value="AnalogTransition" />
     <property role="EcuMT" value="6483884641801182720" />
+    <property role="34LRSv" value="Analog Transition" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="5BVoFE7aTSs" role="1TKVEl">
+    <node concept="1TJgyi" id="7ztUcxey955" role="1TKVEl">
+      <property role="IQ2nx" value="8709373201413083461" />
       <property role="TrG5h" value="status" />
-      <property role="IQ2nx" value="6483884641801182748" />
-      <ref role="AX2Wp" node="5BVoFE7aTSL" resolve="STATUS" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
-    <node concept="1TJgyi" id="69mQjAuuy$C" role="1TKVEl">
-      <property role="IQ2nx" value="7086089905209223464" />
-      <property role="TrG5h" value="target" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyj" id="5BVoFE7aTSu" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="sensor" />
-      <property role="20lbJX" value="1" />
-      <property role="IQ2ns" value="6483884641801182750" />
-      <ref role="20lvS9" node="78eQDyb0IIO" resolve="Sensor" />
+    <node concept="PrWs8" id="7ztUcxeytMS" role="PzmwI">
+      <ref role="PrY4T" node="7ztUcxeytMI" resolve="ITransition" />
     </node>
   </node>
   <node concept="AxPO7" id="5BVoFE7aTSL">
     <property role="TrG5h" value="STATUS" />
     <property role="PDuV0" value="true" />
-    <property role="3lZH7k" value="derive_from_presentation" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
     <ref role="M4eZT" to="tpck:fKAQMTB" resolve="boolean" />
     <node concept="M4N5e" id="5BVoFE7aTSM" role="M5hS2">
-      <property role="1uS6qv" value="true" />
       <property role="1uS6qo" value="high" />
+      <property role="1uS6qv" value="true" />
     </node>
     <node concept="M4N5e" id="5BVoFE7aTTe" role="M5hS2">
       <property role="1uS6qo" value="low" />
@@ -243,6 +236,58 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="pins" />
       <ref role="20lvS9" to="tpee:gPCKINj" resolve="Number" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="69mQjAu$HU6">
+    <property role="TrG5h" value="Operator" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="69mQjAu$HU7" role="M5hS2">
+      <property role="1uS6qo" value="is" />
+      <property role="1uS6qv" value="equals" />
+    </node>
+    <node concept="M4N5e" id="69mQjAu$HU8" role="M5hS2">
+      <property role="1uS6qo" value="is inf" />
+      <property role="1uS6qv" value="inf" />
+    </node>
+    <node concept="M4N5e" id="69mQjAu$HUb" role="M5hS2">
+      <property role="1uS6qo" value="is sup" />
+      <property role="1uS6qv" value="sup" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ztUcxeytLR">
+    <property role="EcuMT" value="8709373201413168247" />
+    <property role="TrG5h" value="DigitalTransition" />
+    <property role="34LRSv" value="Digital Transition" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7ztUcxeytMO" role="1TKVEl">
+      <property role="IQ2nx" value="8709373201413168308" />
+      <property role="TrG5h" value="status" />
+      <ref role="AX2Wp" node="5BVoFE7aTSL" resolve="STATUS" />
+    </node>
+    <node concept="PrWs8" id="7ztUcxeytMU" role="PzmwI">
+      <ref role="PrY4T" node="7ztUcxeytMI" resolve="ITransition" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7ztUcxeytMI">
+    <property role="EcuMT" value="8709373201413168302" />
+    <property role="TrG5h" value="ITransition" />
+    <node concept="1TJgyi" id="7ztUcxeytMJ" role="1TKVEl">
+      <property role="IQ2nx" value="8709373201413168303" />
+      <property role="TrG5h" value="target" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7ztUcxeytML" role="1TKVEl">
+      <property role="IQ2nx" value="8709373201413168305" />
+      <property role="TrG5h" value="operator" />
+      <ref role="AX2Wp" node="69mQjAu$HU6" resolve="Operator" />
+    </node>
+    <node concept="1TJgyj" id="7ztUcxeytMX" role="1TKVEi">
+      <property role="IQ2ns" value="8709373201413168317" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="sensor" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="78eQDyb0IIO" resolve="Sensor" />
     </node>
   </node>
 </model>

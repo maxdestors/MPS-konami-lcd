@@ -8,6 +8,10 @@
     <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.String" />
   </dependency>
+  <dependency className="ArduinoML.behavior.AnalogTransition_BehaviorDescriptor" file="AnalogTransition_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
   <dependency className="ArduinoML.behavior.App_BehaviorDescriptor" file="App_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.String" />
@@ -26,6 +30,13 @@
     <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.String" />
   </dependency>
+  <dependency className="ArduinoML.behavior.DigitalTransition_BehaviorDescriptor" file="DigitalTransition_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
+  <dependency className="ArduinoML.behavior.ITransition_BehaviorDescriptor" file="ITransition_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Deprecated" />
+  </dependency>
   <dependency className="ArduinoML.behavior.LCD_init_BehaviorDescriptor" file="LCD_init_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.String" />
@@ -35,10 +46,6 @@
     <classNode dependClassName="java.lang.String" />
   </dependency>
   <dependency className="ArduinoML.behavior.State_BehaviorDescriptor" file="State_BehaviorDescriptor.java">
-    <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.String" />
-  </dependency>
-  <dependency className="ArduinoML.behavior.Transition_BehaviorDescriptor" file="Transition_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
     <classNode dependClassName="java.lang.String" />
   </dependency>
