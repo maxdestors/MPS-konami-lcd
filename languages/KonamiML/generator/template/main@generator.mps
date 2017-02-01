@@ -696,6 +696,14 @@
           </node>
         </node>
       </node>
+      <node concept="3uOfyw" id="2aywW0JtVb3" role="3uOfKK">
+        <property role="3uOfX0" value="true" />
+        <ref role="3uOfX6" node="2QzOGW4b6CK" resolve="led_green" />
+      </node>
+      <node concept="3uOfyw" id="2aywW0JtWvm" role="3uOfKK">
+        <property role="3uOfX0" value="false" />
+        <ref role="3uOfX6" node="2QzOGW4b6b5" resolve="led_red" />
+      </node>
     </node>
   </node>
   <node concept="3T3p6P" id="20XqqltyP7K">
@@ -703,15 +711,15 @@
     <ref role="3uOfKs" node="20XqqltyP7M" resolve="init" />
     <node concept="3T3p6N" id="2QzOGW4b6b5" role="3T3nKE">
       <property role="TrG5h" value="led_red" />
-      <property role="3T3nKM" value="9" />
+      <property role="3T3nKM" value="8" />
     </node>
     <node concept="3T3p6N" id="2QzOGW4b6CK" role="3T3nKE">
       <property role="TrG5h" value="led_green" />
-      <property role="3T3nKM" value="10" />
+      <property role="3T3nKM" value="9" />
     </node>
     <node concept="3T334G" id="20XqqltyP8h" role="3T3nKE">
       <property role="TrG5h" value="button" />
-      <property role="3T3nKM" value="8" />
+      <property role="3T3nKM" value="12" />
     </node>
     <node concept="3T334G" id="69mQjAu$GxP" role="3T3nKE">
       <property role="TrG5h" value="joyX" />
@@ -1037,6 +1045,14 @@
           </node>
         </node>
       </node>
+      <node concept="3uOfyw" id="2aywW0JtXa8" role="3uOfKK">
+        <property role="3uOfX0" value="true" />
+        <ref role="3uOfX6" node="2QzOGW4b6CK" resolve="led_green" />
+      </node>
+      <node concept="3uOfyw" id="2aywW0JtXKX" role="3uOfKK">
+        <property role="3uOfX0" value="true" />
+        <ref role="3uOfX6" node="2QzOGW4b6b5" resolve="led_red" />
+      </node>
     </node>
     <node concept="3uOfik" id="2QzOGW4aAIr" role="3uOfKp">
       <property role="TrG5h" value="attempt" />
@@ -1044,6 +1060,14 @@
         <property role="Ql3hW" value="true" />
         <property role="Ql3hB" value="failure" />
         <ref role="Ql3hP" node="20XqqltyP8h" resolve="button" />
+      </node>
+      <node concept="3uOfyw" id="2aywW0JtX9Z" role="3uOfKK">
+        <property role="3uOfX0" value="false" />
+        <ref role="3uOfX6" node="2QzOGW4b6CK" resolve="led_green" />
+      </node>
+      <node concept="3uOfyw" id="2aywW0JtXa4" role="3uOfKK">
+        <property role="3uOfX0" value="false" />
+        <ref role="3uOfX6" node="2QzOGW4b6b5" resolve="led_red" />
       </node>
     </node>
     <node concept="3uOfik" id="69mQjAuvOAF" role="3uOfKp">

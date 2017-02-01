@@ -16,23 +16,18 @@
     </language>
   </registry>
   <node concept="1XHQZd" id="20XqqltyHNF">
-    <node concept="1XHKpN" id="2QzOGW4aYVf" role="1XHKph" />
-    <node concept="1XHKpN" id="2QzOGW4b3Wc" role="1XHKph">
-      <property role="1XHKpn" value="D" />
-    </node>
-    <node concept="1XHKpN" id="2QzOGW4b3WH" role="1XHKph">
-      <property role="1XHKpn" value="L" />
-    </node>
-    <node concept="1XHKpN" id="2QzOGW4b3Wu" role="1XHKph">
+    <node concept="1XHKpN" id="2aywW0Ju1xn" role="1XHKph">
       <property role="1XHKpn" value="U" />
     </node>
-    <node concept="1XHKpN" id="69mQjAu$zPx" role="1XHKph">
-      <property role="1XHKpn" value="R" />
+    <node concept="1XHKpN" id="2aywW0Ju1xp" role="1XHKph">
+      <property role="1XHKpn" value="D" />
     </node>
-    <node concept="1XHKpN" id="69mQjAu$zPB" role="1XHKph">
+    <node concept="1XHKpN" id="2aywW0Ju1xs" role="1XHKph">
       <property role="1XHKpn" value="L" />
     </node>
-    <node concept="1XHKpN" id="69mQjAu$zPI" role="1XHKph" />
+    <node concept="1XHKpN" id="2aywW0Ju1xw" role="1XHKph">
+      <property role="1XHKpn" value="R" />
+    </node>
   </node>
 </model>
 
