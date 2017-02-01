@@ -16,8 +16,11 @@
     <file name="Brick_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ArduinoML.behavior.Brick_BehaviorDescriptor" />
     </file>
-    <file name="LCD_init_BehaviorDescriptor.java">
-      <unit at="11,0,17,0" name="ArduinoML.behavior.LCD_init_BehaviorDescriptor" />
+    <file name="LCD_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="ArduinoML.behavior.LCD_BehaviorDescriptor" />
+    </file>
+    <file name="Message_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="ArduinoML.behavior.Message_BehaviorDescriptor" />
     </file>
     <file name="Sensor_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ArduinoML.behavior.Sensor_BehaviorDescriptor" />
@@ -25,8 +28,26 @@
     <file name="State_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ArduinoML.behavior.State_BehaviorDescriptor" />
     </file>
+    <file name="StatutUpdate_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="ArduinoML.behavior.StatutUpdate_BehaviorDescriptor" />
+    </file>
+    <file name="Temperature_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="ArduinoML.behavior.Temperature_BehaviorDescriptor" />
+    </file>
     <file name="Transition_BehaviorDescriptor.java">
       <unit at="11,0,17,0" name="ArduinoML.behavior.Transition_BehaviorDescriptor" />
+    </file>
+    <file name="UserMessage_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="ArduinoML.behavior.UserMessage_BehaviorDescriptor" />
+    </file>
+    <file name="clear_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="ArduinoML.behavior.clear_BehaviorDescriptor" />
+    </file>
+    <file name="pin_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="ArduinoML.behavior.pin_BehaviorDescriptor" />
+    </file>
+    <file name="print_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="ArduinoML.behavior.print_BehaviorDescriptor" />
     </file>
   </root>
 </debug-info>
