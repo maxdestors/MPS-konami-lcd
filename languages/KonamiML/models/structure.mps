@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" implicit="true" />
   </imports>
   <registry>
@@ -64,8 +65,20 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="20XqqltyAZm" resolve="Entree" />
     </node>
+    <node concept="1TJgyj" id="2aywW0Jxh2s" role="1TKVEi">
+      <property role="IQ2ns" value="2495702004970885276" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="count" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="tpee:f_0OyhT" resolve="IntegerType" />
+    </node>
     <node concept="PrWs8" id="20XqqltyBEx" role="PzmwI">
       <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
+    </node>
+    <node concept="1TJgyi" id="2aywW0JwdEM" role="1TKVEl">
+      <property role="IQ2nx" value="2495702004970609330" />
+      <property role="TrG5h" value="nbFail" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
   <node concept="AxPO7" id="20Xqqltywq4">

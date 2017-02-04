@@ -73,6 +73,12 @@
         </node>
         <node concept="l2Vlx" id="2aywW0JtvtH" role="2iSdaV" />
       </node>
+      <node concept="3F0ifn" id="2aywW0JwdF9" role="3EZMnx">
+        <property role="3F0ifm" value="nb fail :" />
+      </node>
+      <node concept="3F0A7n" id="2aywW0JwdEY" role="3EZMnx">
+        <ref role="1NtTu8" to="38xb:2aywW0JwdEM" resolve="nbFail" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="2aywW0Jtnao">
