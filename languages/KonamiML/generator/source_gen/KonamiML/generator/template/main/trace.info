@@ -6,10 +6,9 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
   <root>
     <file name="QueriesGenerated.java">
-      <unit at="17,0,154,0" name="KonamiML.generator.template.main.QueriesGenerated" />
+      <unit at="17,0,153,0" name="KonamiML.generator.template.main.QueriesGenerated" />
     </file>
   </root>
   <root nodeRef="r:0b21cc25-f094-41b0-ac68-004fc5929eb8(KonamiML.generator.template.main@generator)/2323129141752908877">
@@ -106,20 +105,19 @@
       <node id="4128226550278266484" at="129,208,130,195" concept="4" />
       <node id="4128226550278266490" at="130,195,131,229" concept="0" />
       <node id="4128226550278266507" at="132,5,133,191" concept="5" />
-      <node id="4128226550278265401" at="133,191,134,0" concept="6" />
-      <node id="2495702004970646735" at="136,120,137,191" concept="5" />
-      <node id="4128226550278275572" at="139,120,140,191" concept="5" />
-      <node id="4128226550278540351" at="142,120,143,191" concept="5" />
-      <node id="4128226550278570010" at="145,120,146,97" concept="0" />
-      <node id="2495702004970455377" at="148,39,149,56" concept="5" />
+      <node id="2495702004970646735" at="135,120,136,191" concept="5" />
+      <node id="4128226550278275572" at="138,120,139,191" concept="5" />
+      <node id="4128226550278540351" at="141,120,142,191" concept="5" />
+      <node id="4128226550278570010" at="144,120,145,97" concept="0" />
+      <node id="2495702004970455377" at="147,39,148,56" concept="5" />
       <node id="4128226550278722313" at="104,112,107,5" concept="2" />
-      <node id="2495702004970453483" at="148,0,151,0" concept="3" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="2495702004970453483" at="147,0,150,0" concept="3" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
       <node id="2495702004969461472" at="70,86,74,5" concept="2" />
       <node id="2495702004969463408" at="78,86,82,5" concept="2" />
       <node id="2495702004969465337" at="86,86,90,5" concept="2" />
       <node id="2495702004969467274" at="94,86,98,5" concept="2" />
       <node id="4128226550278266482" at="128,120,132,5" concept="1" />
-      <node id="3288703939480667517" at="146,97,151,7" concept="5" />
+      <node id="3288703939480667517" at="145,97,150,7" concept="5" />
       <scope id="4128226550278280492" at="101,112,102,74" />
       <scope id="4128226550278722315" at="105,415,106,23" />
       <scope id="2495702004970636479" at="110,112,111,77" />
@@ -128,10 +126,10 @@
       <scope id="4128226550278885695" at="119,112,120,77" />
       <scope id="4128226550278890140" at="122,112,123,77" />
       <scope id="4128226550278849022" at="125,112,126,82" />
-      <scope id="2495702004970644062" at="136,120,137,191" />
-      <scope id="4128226550278274744" at="139,120,140,191" />
-      <scope id="4128226550278343354" at="142,120,143,191" />
-      <scope id="2495702004970453484" at="148,39,149,56" />
+      <scope id="2495702004970644062" at="135,120,136,191" />
+      <scope id="4128226550278274744" at="138,120,139,191" />
+      <scope id="4128226550278343354" at="141,120,142,191" />
+      <scope id="2495702004970453484" at="147,39,148,56" />
       <scope id="2495702004969461473" at="71,569,73,87">
         <var name="index" id="2495702004969461475" />
       </scope>
@@ -147,13 +145,14 @@
       <scope id="4128226550278266483" at="129,208,131,229">
         <var name="intType" id="4128226550278266485" />
       </scope>
-      <scope id="2495702004970453483" at="148,0,151,0">
+      <scope id="2495702004970453483" at="147,0,150,0">
         <var name="it" id="2495702004970453483" />
       </scope>
       <scope id="4128226550278721733" at="104,112,108,80" />
       <scope id="4128226550278266482" at="128,120,132,5">
         <var name="i" id="4128226550278266497" />
       </scope>
+      <scope id="4128226550278259473" at="128,120,133,191" />
       <scope id="2495702004969460922" at="69,112,75,18">
         <var name="target" id="2495702004969461469" />
       </scope>
@@ -166,9 +165,8 @@
       <scope id="2495702004969466730" at="93,112,99,18">
         <var name="target" id="2495702004969467271" />
       </scope>
-      <scope id="4128226550278259473" at="128,120,134,0" />
-      <scope id="3288703939480667511" at="145,120,151,7" />
-      <unit id="2495702004970453483" at="147,393,151,5" name="KonamiML.generator.template.main.QueriesGenerated$1" />
+      <scope id="3288703939480667511" at="144,120,150,7" />
+      <unit id="2495702004970453483" at="146,393,150,5" name="KonamiML.generator.template.main.QueriesGenerated$1" />
     </file>
   </root>
 </debug-info>
