@@ -7,6 +7,7 @@
   </models>
   <sourcePath />
   <languageVersions>
+    <language slang="l:77aea6ff-63a3-49cb-a31d-cb04e7acf55b:KonamiML" version="-1" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="1" />
   </languageVersions>
   <dependencyVersions>

@@ -84,7 +84,7 @@
       <property role="IQ2ns" value="2874933167362214208" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="pins" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="2v_O7JhBg$X" resolve="pin" />
     </node>
     <node concept="1TJgyi" id="2v_O7JhEIJC" role="1TKVEl">

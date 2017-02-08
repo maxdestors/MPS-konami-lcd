@@ -16,7 +16,6 @@
       <external-templates />
       <dependencies>
         <dependency reexport="true">5edee0cf-46e1-49f9-971e-6b9e2e5cae16(ArduinoML)</dependency>
-        <dependency reexport="false">e58e7b1d-f0e3-423e-9d4c-0604a9db6a5b(ArduinoML#8218746718699807902)</dependency>
       </dependencies>
       <usedDevKits>
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
@@ -44,7 +43,6 @@
       <dependencyVersions>
         <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
         <module reference="5edee0cf-46e1-49f9-971e-6b9e2e5cae16(ArduinoML)" version="0" />
-        <module reference="e58e7b1d-f0e3-423e-9d4c-0604a9db6a5b(ArduinoML#8218746718699807902)" version="0" />
         <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
         <module reference="77aea6ff-63a3-49cb-a31d-cb04e7acf55b(KonamiML)" version="0" />
         <module reference="06b87786-fda3-40fc-9826-61e1bb34dddf(KonamiML#2323129141752888647)" version="0" />

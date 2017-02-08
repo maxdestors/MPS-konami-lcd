@@ -108,18 +108,23 @@
         <child id="6483884641801182858" name="actions" index="3uOfKK" />
       </concept>
       <concept id="6483884641801181722" name="ArduinoML.structure.Action" flags="ng" index="3uOfyw">
-        <property id="6483884641801182714" name="status" index="3uOfX0" />
         <reference id="6483884641801182716" name="actuator" index="3uOfX6" />
       </concept>
       <concept id="6483884641801182720" name="ArduinoML.structure.AnalogTransition" flags="ng" index="3uOfMU">
         <property id="8709373201413083461" name="status" index="QlnAd" />
+      </concept>
+      <concept id="2874933167363117363" name="ArduinoML.structure.StatutUpdate" flags="ng" index="3QjK58">
+        <property id="2874933167363117391" name="statut" index="3QjK4O" />
+      </concept>
+      <concept id="2874933167362214205" name="ArduinoML.structure.pin" flags="ng" index="3Qud_6">
+        <property id="2874933167362214206" name="pinNumber" index="3Qud_5" />
       </concept>
       <concept id="8218746718699842484" name="ArduinoML.structure.Sensor" flags="ng" index="3T334G">
         <property id="8241053244741662229" name="is" index="DHyLm" />
       </concept>
       <concept id="8218746718699866923" name="ArduinoML.structure.Actuator" flags="ng" index="3T3p6N" />
       <concept id="8218746718699866924" name="ArduinoML.structure.Brick" flags="ng" index="3T3p6O">
-        <property id="8218746718699890346" name="pin" index="3T3nKM" />
+        <child id="2874933167362214208" name="pins" index="3Qud$V" />
       </concept>
       <concept id="8218746718699866925" name="ArduinoML.structure.App" flags="ng" index="3T3p6P">
         <reference id="6483884641801182886" name="init_state" index="3uOfKs" />
@@ -283,7 +288,7 @@
         <property role="QlnAd" value="200" />
         <property role="Ql3hT" value="inf" />
         <property role="Ql3hB" value="attempt" />
-        <ref role="Ql3hP" node="69mQjAu$GxP" resolve="joyX" />
+        <ref role="Ql3hP" node="2boBeE4Ss3y" resolve="joyX" />
         <node concept="17Uvod" id="2aywW0JrXve" role="lGtFl">
           <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8709373201413168302/8709373201413168303" />
           <property role="2qtEX9" value="target" />
@@ -432,7 +437,7 @@
         <property role="QlnAd" value="800" />
         <property role="Ql3hT" value="sup" />
         <property role="Ql3hB" value="attempt" />
-        <ref role="Ql3hP" node="69mQjAu$GxP" resolve="joyX" />
+        <ref role="Ql3hP" node="2boBeE4Ss3y" resolve="joyX" />
         <node concept="17Uvod" id="2aywW0JrYbY" role="lGtFl">
           <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8709373201413168302/8709373201413168303" />
           <property role="2qtEX9" value="target" />
@@ -581,7 +586,7 @@
         <property role="QlnAd" value="200" />
         <property role="Ql3hT" value="inf" />
         <property role="Ql3hB" value="attempt" />
-        <ref role="Ql3hP" node="69mQjAu$FB1" resolve="joyY" />
+        <ref role="Ql3hP" node="2boBeE4SuKS" resolve="joyY" />
         <node concept="17Uvod" id="2aywW0JrYS$" role="lGtFl">
           <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8709373201413168302/8709373201413168303" />
           <property role="2qtEX9" value="target" />
@@ -730,7 +735,7 @@
         <property role="QlnAd" value="800" />
         <property role="Ql3hT" value="sup" />
         <property role="Ql3hB" value="attempt" />
-        <ref role="Ql3hP" node="69mQjAu$FB1" resolve="joyY" />
+        <ref role="Ql3hP" node="2boBeE4SuKS" resolve="joyY" />
         <node concept="17Uvod" id="2aywW0JrZ_i" role="lGtFl">
           <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8709373201413168302/8709373201413168303" />
           <property role="2qtEX9" value="target" />
@@ -878,7 +883,7 @@
       <node concept="Ql3iZ" id="2aywW0Jw67d" role="3uOfKq">
         <property role="Ql3hW" value="true" />
         <property role="Ql3hB" value="attempt" />
-        <ref role="Ql3hP" node="20XqqltyP8h" resolve="button" />
+        <ref role="Ql3hP" node="2boBeE4SqGP" resolve="button" />
         <node concept="17Uvod" id="3_aq2NpGJ9o" role="lGtFl">
           <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8709373201413168302/8709373201413168303" />
           <property role="2qtEX9" value="target" />
@@ -903,40 +908,50 @@
           </node>
         </node>
       </node>
-      <node concept="3uOfyw" id="2aywW0JtVb3" role="3uOfKK">
-        <property role="3uOfX0" value="true" />
-        <ref role="3uOfX6" node="2QzOGW4b6CK" resolve="led_green" />
+      <node concept="3QjK58" id="2boBeE4SPhD" role="3uOfKK">
+        <property role="3QjK4O" value="true" />
+        <ref role="3uOfX6" node="2boBeE4SiRj" resolve="green_led" />
       </node>
-      <node concept="3uOfyw" id="2aywW0JtWvm" role="3uOfKK">
-        <property role="3uOfX0" value="false" />
-        <ref role="3uOfX6" node="2QzOGW4b6b5" resolve="led_red" />
+      <node concept="3QjK58" id="2boBeE4SPWf" role="3uOfKK">
+        <property role="3QjK4O" value="false" />
+        <ref role="3uOfX6" node="2boBeE4Sg9X" resolve="red_led" />
       </node>
     </node>
   </node>
   <node concept="3T3p6P" id="20XqqltyP7K">
     <property role="TrG5h" value="konami_app" />
     <ref role="3uOfKs" node="20XqqltyP7M" resolve="0_init" />
-    <node concept="3T3p6N" id="2QzOGW4b6b5" role="3T3nKE">
-      <property role="TrG5h" value="led_red" />
-      <property role="3T3nKM" value="8" />
+    <node concept="3T3p6N" id="2boBeE4Sg9X" role="3T3nKE">
+      <property role="TrG5h" value="red_led" />
+      <node concept="3Qud_6" id="2boBeE4Shwz" role="3Qud$V">
+        <property role="3Qud_5" value="8" />
+      </node>
     </node>
-    <node concept="3T3p6N" id="2QzOGW4b6CK" role="3T3nKE">
-      <property role="TrG5h" value="led_green" />
-      <property role="3T3nKM" value="9" />
+    <node concept="3T3p6N" id="2boBeE4SiRj" role="3T3nKE">
+      <property role="TrG5h" value="green_led" />
+      <node concept="3Qud_6" id="2boBeE4SiRk" role="3Qud$V">
+        <property role="3Qud_5" value="9" />
+      </node>
     </node>
-    <node concept="3T334G" id="20XqqltyP8h" role="3T3nKE">
+    <node concept="3T334G" id="2boBeE4SqGP" role="3T3nKE">
       <property role="TrG5h" value="button" />
-      <property role="3T3nKM" value="12" />
+      <node concept="3Qud_6" id="2boBeE4Ss3s" role="3Qud$V">
+        <property role="3Qud_5" value="12" />
+      </node>
     </node>
-    <node concept="3T334G" id="69mQjAu$GxP" role="3T3nKE">
+    <node concept="3T334G" id="2boBeE4Ss3y" role="3T3nKE">
       <property role="TrG5h" value="joyX" />
-      <property role="3T3nKM" value="1" />
       <property role="DHyLm" value="true" />
+      <node concept="3Qud_6" id="2boBeE4SuKM" role="3Qud$V">
+        <property role="3Qud_5" value="1" />
+      </node>
     </node>
-    <node concept="3T334G" id="69mQjAu$FB1" role="3T3nKE">
+    <node concept="3T334G" id="2boBeE4SuKS" role="3T3nKE">
       <property role="TrG5h" value="joyY" />
-      <property role="3T3nKM" value="2" />
       <property role="DHyLm" value="true" />
+      <node concept="3Qud_6" id="2boBeE4S_ba" role="3Qud$V">
+        <property role="3Qud_5" value="2" />
+      </node>
     </node>
     <node concept="3uOfik" id="20XqqltyP7M" role="3uOfKp">
       <property role="TrG5h" value="0_init" />
@@ -944,7 +959,7 @@
         <property role="QlnAd" value="200" />
         <property role="Ql3hT" value="inf" />
         <property role="Ql3hB" value="attempt" />
-        <ref role="Ql3hP" node="69mQjAu$GxP" resolve="joyX" />
+        <ref role="Ql3hP" node="2boBeE4Ss3y" resolve="joyX" />
         <node concept="17Uvod" id="2aywW0JrPiS" role="lGtFl">
           <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8709373201413168302/8709373201413168303" />
           <property role="2qtEX9" value="target" />
@@ -1043,7 +1058,7 @@
         <property role="QlnAd" value="800" />
         <property role="Ql3hT" value="sup" />
         <property role="Ql3hB" value="attempt" />
-        <ref role="Ql3hP" node="69mQjAu$GxP" resolve="joyX" />
+        <ref role="Ql3hP" node="2boBeE4Ss3y" resolve="joyX" />
         <node concept="17Uvod" id="2aywW0JrPLe" role="lGtFl">
           <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8709373201413168302/8709373201413168303" />
           <property role="2qtEX9" value="target" />
@@ -1142,7 +1157,7 @@
         <property role="QlnAd" value="200" />
         <property role="Ql3hT" value="inf" />
         <property role="Ql3hB" value="attempt" />
-        <ref role="Ql3hP" node="69mQjAu$FB1" resolve="joyY" />
+        <ref role="Ql3hP" node="2boBeE4SuKS" resolve="joyY" />
         <node concept="17Uvod" id="2aywW0JrQfn" role="lGtFl">
           <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8709373201413168302/8709373201413168303" />
           <property role="2qtEX9" value="target" />
@@ -1241,7 +1256,7 @@
         <property role="QlnAd" value="800" />
         <property role="Ql3hT" value="sup" />
         <property role="Ql3hB" value="attempt" />
-        <ref role="Ql3hP" node="69mQjAu$FB1" resolve="joyY" />
+        <ref role="Ql3hP" node="2boBeE4SuKS" resolve="joyY" />
         <node concept="17Uvod" id="2aywW0JrQHC" role="lGtFl">
           <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8709373201413168302/8709373201413168303" />
           <property role="2qtEX9" value="target" />
@@ -1336,13 +1351,13 @@
           </node>
         </node>
       </node>
-      <node concept="3uOfyw" id="2aywW0JtXa8" role="3uOfKK">
-        <property role="3uOfX0" value="true" />
-        <ref role="3uOfX6" node="2QzOGW4b6CK" resolve="led_green" />
+      <node concept="3QjK58" id="2boBeE4S_bc" role="3uOfKK">
+        <property role="3QjK4O" value="true" />
+        <ref role="3uOfX6" node="2boBeE4SiRj" resolve="green_led" />
       </node>
-      <node concept="3uOfyw" id="2aywW0JtXKX" role="3uOfKK">
-        <property role="3uOfX0" value="true" />
-        <ref role="3uOfX6" node="2QzOGW4b6b5" resolve="led_red" />
+      <node concept="3QjK58" id="2boBeE4SA8T" role="3uOfKK">
+        <property role="3QjK4O" value="true" />
+        <ref role="3uOfX6" node="2boBeE4Sg9X" resolve="red_led" />
       </node>
       <node concept="1WS0z7" id="3_aq2NpF0cd" role="lGtFl">
         <node concept="3JmXsc" id="3_aq2NpF0cg" role="3Jn$fo">
@@ -1440,7 +1455,7 @@
       <node concept="Ql3iZ" id="2aywW0JrJIC" role="3uOfKq">
         <property role="Ql3hW" value="true" />
         <property role="Ql3hB" value="failure" />
-        <ref role="Ql3hP" node="20XqqltyP8h" resolve="button" />
+        <ref role="Ql3hP" node="2boBeE4SqGP" resolve="button" />
         <node concept="17Uvod" id="3_aq2NpGL33" role="lGtFl">
           <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8709373201413168302/8709373201413168303" />
           <property role="2qtEX9" value="target" />
@@ -1503,13 +1518,13 @@
           </node>
         </node>
       </node>
-      <node concept="3uOfyw" id="2aywW0JtX9Z" role="3uOfKK">
-        <property role="3uOfX0" value="false" />
-        <ref role="3uOfX6" node="2QzOGW4b6CK" resolve="led_green" />
+      <node concept="3QjK58" id="2boBeE4SG_R" role="3uOfKK">
+        <property role="3QjK4O" value="false" />
+        <ref role="3uOfX6" node="2boBeE4SiRj" resolve="green_led" />
       </node>
-      <node concept="3uOfyw" id="2aywW0JtXa4" role="3uOfKK">
-        <property role="3uOfX0" value="false" />
-        <ref role="3uOfX6" node="2QzOGW4b6b5" resolve="led_red" />
+      <node concept="3QjK58" id="2boBeE4SHb5" role="3uOfKK">
+        <property role="3QjK4O" value="false" />
+        <ref role="3uOfX6" node="2boBeE4Sg9X" resolve="red_led" />
       </node>
       <node concept="17Uvod" id="2aywW0JwkiX" role="lGtFl">
         <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
@@ -1552,7 +1567,7 @@
         <property role="QlnAd" value="200" />
         <property role="Ql3hT" value="inf" />
         <property role="Ql3hB" value="attempt" />
-        <ref role="Ql3hP" node="69mQjAu$GxP" resolve="joyX" />
+        <ref role="Ql3hP" node="2boBeE4Ss3y" resolve="joyX" />
         <node concept="17Uvod" id="3_aq2NpHjQo" role="lGtFl">
           <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8709373201413168302/8709373201413168303" />
           <property role="2qtEX9" value="target" />
@@ -1577,7 +1592,7 @@
         <property role="QlnAd" value="800" />
         <property role="Ql3hT" value="sup" />
         <property role="Ql3hB" value="attempt" />
-        <ref role="Ql3hP" node="69mQjAu$GxP" resolve="joyX" />
+        <ref role="Ql3hP" node="2boBeE4Ss3y" resolve="joyX" />
         <node concept="17Uvod" id="3_aq2NpHnZw" role="lGtFl">
           <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8709373201413168302/8709373201413168303" />
           <property role="2qtEX9" value="target" />
@@ -1602,7 +1617,7 @@
         <property role="QlnAd" value="200" />
         <property role="Ql3hT" value="inf" />
         <property role="Ql3hB" value="attempt" />
-        <ref role="Ql3hP" node="69mQjAu$FB1" resolve="joyY" />
+        <ref role="Ql3hP" node="2boBeE4SuKS" resolve="joyY" />
         <node concept="17Uvod" id="3_aq2NpHp4X" role="lGtFl">
           <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8709373201413168302/8709373201413168303" />
           <property role="2qtEX9" value="target" />
@@ -1627,7 +1642,7 @@
         <property role="QlnAd" value="800" />
         <property role="Ql3hT" value="sup" />
         <property role="Ql3hB" value="attempt" />
-        <ref role="Ql3hP" node="69mQjAu$FB1" resolve="joyY" />
+        <ref role="Ql3hP" node="2boBeE4SuKS" resolve="joyY" />
         <node concept="17Uvod" id="3_aq2NpHqaq" role="lGtFl">
           <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/8709373201413168302/8709373201413168303" />
           <property role="2qtEX9" value="target" />
@@ -1651,7 +1666,7 @@
       <node concept="Ql3iZ" id="2aywW0JrJHJ" role="3uOfKq">
         <property role="Ql3hW" value="true" />
         <property role="Ql3hB" value="success" />
-        <ref role="Ql3hP" node="20XqqltyP8h" resolve="button" />
+        <ref role="Ql3hP" node="2boBeE4SqGP" resolve="button" />
       </node>
       <node concept="1WS0z7" id="3_aq2NpF3UO" role="lGtFl">
         <node concept="3JmXsc" id="3_aq2NpF3UR" role="3Jn$fo">
@@ -1689,34 +1704,34 @@
     </node>
     <node concept="3uOfik" id="2QzOGW4aAPN" role="3uOfKp">
       <property role="TrG5h" value="success" />
-      <node concept="3uOfyw" id="2aywW0JrIBs" role="3uOfKK">
-        <property role="3uOfX0" value="true" />
-        <ref role="3uOfX6" node="2QzOGW4b6CK" resolve="led_green" />
+      <node concept="3QjK58" id="2boBeE4SPgv" role="3uOfKK">
+        <property role="3QjK4O" value="true" />
+        <ref role="3uOfX6" node="2boBeE4SiRj" resolve="green_led" />
       </node>
-      <node concept="3uOfyw" id="2aywW0JrIBx" role="3uOfKK">
-        <property role="3uOfX0" value="false" />
-        <ref role="3uOfX6" node="2QzOGW4b6b5" resolve="led_red" />
+      <node concept="3QjK58" id="2boBeE4SPgz" role="3uOfKK">
+        <property role="3QjK4O" value="true" />
+        <ref role="3uOfX6" node="2boBeE4Sg9X" resolve="red_led" />
       </node>
       <node concept="Ql3iZ" id="2aywW0JrJHz" role="3uOfKq">
         <property role="Ql3hB" value="success" />
         <property role="Ql3hW" value="true" />
-        <ref role="Ql3hP" node="20XqqltyP8h" resolve="button" />
+        <ref role="Ql3hP" node="2boBeE4SqGP" resolve="button" />
       </node>
     </node>
     <node concept="3uOfik" id="2QzOGW4aAXd" role="3uOfKp">
       <property role="TrG5h" value="failure" />
-      <node concept="3uOfyw" id="2aywW0JrIB_" role="3uOfKK">
-        <property role="3uOfX0" value="false" />
-        <ref role="3uOfX6" node="2QzOGW4b6CK" resolve="led_green" />
+      <node concept="3QjK58" id="2boBeE4SPgB" role="3uOfKK">
+        <property role="3QjK4O" value="false" />
+        <ref role="3uOfX6" node="2boBeE4SiRj" resolve="green_led" />
       </node>
-      <node concept="3uOfyw" id="2aywW0JrIBE" role="3uOfKK">
-        <property role="3uOfX0" value="true" />
-        <ref role="3uOfX6" node="2QzOGW4b6b5" resolve="led_red" />
+      <node concept="3QjK58" id="2boBeE4SPgF" role="3uOfKK">
+        <property role="3QjK4O" value="true" />
+        <ref role="3uOfX6" node="2boBeE4Sg9X" resolve="red_led" />
       </node>
       <node concept="Ql3iZ" id="2aywW0JrIBT" role="3uOfKq">
         <property role="Ql3hW" value="true" />
         <property role="Ql3hB" value="failure" />
-        <ref role="Ql3hP" node="20XqqltyP8h" resolve="button" />
+        <ref role="Ql3hP" node="2boBeE4SqGP" resolve="button" />
       </node>
     </node>
     <node concept="3uOfik" id="2QzOGW4aBjr" role="3uOfKp">
@@ -1802,7 +1817,7 @@
       <node concept="Ql3iZ" id="2aywW0JrJWr" role="3uOfKq">
         <property role="Ql3hW" value="true" />
         <property role="Ql3hB" value="attempt" />
-        <ref role="Ql3hP" node="20XqqltyP8h" resolve="button" />
+        <ref role="Ql3hP" node="2boBeE4SqGP" resolve="button" />
       </node>
     </node>
     <node concept="n94m4" id="20XqqltyP7O" role="lGtFl">

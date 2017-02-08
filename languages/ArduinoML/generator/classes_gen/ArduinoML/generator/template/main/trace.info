@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <root>
+    <file name="QueriesGenerated.java">
+      <unit at="24,0,228,0" name="ArduinoML.generator.template.main.QueriesGenerated" />
+    </file>
+  </root>
+  <root nodeRef="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/2495702004969135007">
+    <file name="QueriesGenerated.java">
+      <node id="3532630281550173863" at="103,68,104,16" concept="5" />
+      <node id="3532630281550173865" at="105,5,106,19" concept="5" />
+      <node id="2495702004969135027" at="108,112,109,546" concept="5" />
+      <node id="2495702004969252406" at="112,216,113,17" concept="5" />
+      <node id="2495702004969252416" at="115,216,116,17" concept="5" />
+      <node id="2495702004969252424" at="117,5,118,16" concept="5" />
+      <node id="2495702004969170012" at="120,112,121,188" concept="5" />
+      <node id="2495702004969135065" at="123,112,124,187" concept="5" />
+      <node id="3532630281550173856" at="102,112,105,5" concept="2" />
+      <node id="2495702004969252404" at="111,112,114,5" concept="2" />
+      <node id="2495702004969252414" at="114,5,117,5" concept="2" />
+      <scope id="3532630281550173862" at="103,68,104,16" />
+      <scope id="2495702004969135026" at="108,112,109,546" />
+      <scope id="2495702004969252405" at="112,216,113,17" />
+      <scope id="2495702004969252415" at="115,216,116,17" />
+      <scope id="2495702004969170006" at="120,112,121,188" />
+      <scope id="2495702004969135064" at="123,112,124,187" />
+      <scope id="3532630281550171271" at="102,112,106,19" />
+      <scope id="2495702004969135037" at="111,112,118,16" />
+    </file>
+  </root>
+  <root nodeRef="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/2874933167362899200">
+    <file name="QueriesGenerated.java">
+      <node id="720935663348355872" at="132,111,133,330" concept="5" />
+      <node id="8687030231814395399" at="135,112,136,330" concept="5" />
+      <node id="720935663349750759" at="138,111,139,330" concept="5" />
+      <node id="8687030231814447841" at="141,112,142,330" concept="5" />
+      <node id="8687030231814405260" at="165,108,166,190" concept="5" />
+      <scope id="720935663348354585" at="132,111,133,330" />
+      <scope id="8687030231814393142" at="135,112,136,330" />
+      <scope id="720935663349748928" at="138,111,139,330" />
+      <scope id="8687030231814446477" at="141,112,142,330" />
+      <scope id="8687030231814405259" at="165,108,166,190" />
+    </file>
+  </root>
+  <root nodeRef="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/2874933167363432872">
+    <file name="QueriesGenerated.java">
+      <node id="2874933167363443844" at="129,112,130,330" concept="5" />
+      <scope id="2874933167363442382" at="129,112,130,330" />
+    </file>
+  </root>
+  <root nodeRef="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/4128226550276804037">
+    <file name="QueriesGenerated.java">
+      <node id="3532630281549179793" at="200,103,201,0" concept="6" />
+      <node id="4128226550277725712" at="201,0,202,54" concept="4" />
+      <node id="4128226550277729309" at="202,54,203,0" concept="6" />
+      <node id="4128226550276972644" at="203,0,204,77" concept="4" />
+      <node id="4128226550276971851" at="206,50,207,180" concept="5" />
+      <node id="4128226550276973539" at="209,9,210,202" concept="0" />
+      <node id="4128226550276984901" at="213,50,214,180" concept="5" />
+      <node id="4128226550277266549" at="217,199,218,356" concept="0" />
+      <node id="4128226550277023288" at="219,224,220,378" concept="4" />
+      <node id="4128226550277022922" at="220,378,221,20" concept="7" />
+      <node id="4128226550276984854" at="224,5,225,0" concept="6" />
+      <node id="4128226550276971851" at="206,0,209,0" concept="3" trace="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+      <node id="4128226550276984901" at="213,0,216,0" concept="3" trace="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+      <node id="4128226550277006926" at="218,356,222,9" concept="2" />
+      <node id="4128226550276847364" at="204,77,211,5" concept="1" />
+      <node id="4128226550276986199" at="216,9,223,7" concept="1" />
+      <node id="4128226550276984888" at="211,5,224,5" concept="1" />
+      <scope id="4128226550276971851" at="206,50,207,180" />
+      <scope id="4128226550276847338" at="209,9,210,202" />
+      <scope id="4128226550276984901" at="213,50,214,180" />
+      <scope id="4128226550277006928" at="219,224,221,20">
+        <var name="err" id="4128226550277023291" />
+      </scope>
+      <scope id="4128226550276971851" at="206,0,209,0">
+        <var name="it" id="4128226550276971851" />
+      </scope>
+      <scope id="4128226550276984901" at="213,0,216,0">
+        <var name="it" id="4128226550276984901" />
+      </scope>
+      <scope id="4128226550276986201" at="217,199,222,9" />
+      <scope id="4128226550276847364" at="204,77,211,5">
+        <var name="appn" id="4128226550276847377" />
+      </scope>
+      <scope id="4128226550276984889" at="216,9,223,7" />
+      <scope id="4128226550276986199" at="216,9,223,7">
+        <var name="trans" id="4128226550276986202" />
+      </scope>
+      <scope id="4128226550276984888" at="211,5,224,5">
+        <var name="appn" id="4128226550276984902" />
+      </scope>
+      <scope id="4128226550276804039" at="200,103,225,0">
+        <var name="myModel" id="4128226550277725715" />
+        <var name="stateNames" id="4128226550276972647" />
+      </scope>
+      <unit id="4128226550276971851" at="205,212,209,5" name="ArduinoML.generator.template.main.QueriesGenerated$4" />
+      <unit id="4128226550276984901" at="212,212,216,5" name="ArduinoML.generator.template.main.QueriesGenerated$5" />
+    </file>
+  </root>
+  <root nodeRef="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/6483884641801605129">
+    <file name="QueriesGenerated.java">
+      <node id="6483884641801830747" at="35,112,36,175" concept="5" />
+      <node id="2323129141753112490" at="38,112,39,175" concept="5" />
+      <node id="6483884641801785294" at="194,120,195,193" concept="5" />
+      <node id="2323129141753190800" at="197,120,198,197" concept="5" />
+      <scope id="6483884641801830741" at="35,112,36,175" />
+      <scope id="2323129141753082161" at="38,112,39,175" />
+      <scope id="6483884641801785288" at="194,120,195,193" />
+      <scope id="2323129141753190794" at="197,120,198,197" />
+    </file>
+  </root>
+  <root nodeRef="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/6483884641801605173">
+    <file name="QueriesGenerated.java">
+      <node id="6483884641801621895" at="41,112,42,548" concept="5" />
+      <node id="6483884641801632777" at="44,112,45,217" concept="5" />
+      <scope id="6483884641801620170" at="41,112,42,548" />
+      <scope id="6483884641801630273" at="44,112,45,217" />
+    </file>
+  </root>
+  <root nodeRef="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/6483884641801605205">
+    <file name="QueriesGenerated.java">
+      <node id="3532630281549947495" at="48,68,49,16" concept="5" />
+      <node id="3532630281549949246" at="50,5,51,19" concept="5" />
+      <node id="2495702004969028092" at="53,112,54,546" concept="5" />
+      <node id="2495702004969225862" at="57,216,58,17" concept="5" />
+      <node id="2495702004969231955" at="60,216,61,17" concept="5" />
+      <node id="2495702004969201184" at="62,5,63,16" concept="5" />
+      <node id="6483884641801799050" at="65,112,66,217" concept="5" />
+      <node id="6483884641801805673" at="68,112,69,187" concept="5" />
+      <node id="3532630281549930782" at="47,112,50,5" concept="2" />
+      <node id="2495702004969225860" at="56,112,59,5" concept="2" />
+      <node id="2495702004969231953" at="59,5,62,5" concept="2" />
+      <scope id="3532630281549930784" at="48,68,49,16" />
+      <scope id="6483884641801788928" at="53,112,54,546" />
+      <scope id="2495702004969225861" at="57,216,58,17" />
+      <scope id="2495702004969231954" at="60,216,61,17" />
+      <scope id="6483884641801796420" at="65,112,66,217" />
+      <scope id="6483884641801803543" at="68,112,69,187" />
+      <scope id="3532630281549925798" at="47,112,51,19" />
+      <scope id="7086089905210920664" at="56,112,63,16" />
+    </file>
+  </root>
+  <root nodeRef="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/720935663349388444">
+    <file name="QueriesGenerated.java">
+      <node id="720935663349392625" at="144,111,145,186" concept="5" />
+      <node id="720935663349538180" at="147,111,148,545" concept="5" />
+      <node id="720935663349923854" at="162,93,163,341" concept="5" />
+      <scope id="720935663349391692" at="144,111,145,186" />
+      <scope id="720935663349531444" at="147,111,148,545" />
+      <scope id="720935663349923853" at="162,93,163,341" />
+    </file>
+  </root>
+  <root nodeRef="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/720935663349659635">
+    <file name="QueriesGenerated.java">
+      <node id="720935663349665394" at="126,111,127,186" concept="5" />
+      <scope id="720935663349664461" at="126,111,127,186" />
+    </file>
+  </root>
+  <root nodeRef="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700166393">
+    <file name="QueriesGenerated.java">
+      <node id="6483884641801540869" at="26,112,27,337" concept="5" />
+      <node id="720935663348510981" at="168,120,169,50" concept="0" />
+      <node id="2874933167363365354" at="171,39,172,176" concept="5" />
+      <node id="2874933167363354146" at="178,39,179,185" concept="5" />
+      <node id="720935663348570807" at="183,119,184,51" concept="0" />
+      <node id="720935663348570822" at="186,39,187,184" concept="5" />
+      <node id="6483884641801756138" at="191,120,192,192" concept="5" />
+      <node id="2874933167363365352" at="171,0,174,0" concept="3" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="2874933167363352915" at="178,0,181,0" concept="3" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="720935663348570820" at="186,0,189,0" concept="3" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="2874933167363365346" at="169,50,174,7" concept="5" />
+      <node id="2874933167363332730" at="176,120,181,7" concept="5" />
+      <node id="720935663348570814" at="184,51,189,7" concept="5" />
+      <scope id="6483884641801539295" at="26,112,27,337" />
+      <scope id="2874933167363365353" at="171,39,172,176" />
+      <scope id="2874933167363352916" at="178,39,179,185" />
+      <scope id="720935663348570821" at="186,39,187,184" />
+      <scope id="6483884641801756132" at="191,120,192,192" />
+      <scope id="2874933167363365352" at="171,0,174,0">
+        <var name="it" id="2874933167363365352" />
+      </scope>
+      <scope id="2874933167363352915" at="178,0,181,0">
+        <var name="it" id="2874933167363352915" />
+      </scope>
+      <scope id="720935663348570820" at="186,0,189,0">
+        <var name="it" id="720935663348570820" />
+      </scope>
+      <scope id="8218746718700471128" at="176,120,181,7" />
+      <scope id="2874933167363365345" at="168,120,174,7" />
+      <scope id="720935663348570806" at="183,119,189,7" />
+      <unit id="2874933167363365352" at="170,225,174,5" name="ArduinoML.generator.template.main.QueriesGenerated$1" />
+      <unit id="2874933167363352915" at="177,225,181,5" name="ArduinoML.generator.template.main.QueriesGenerated$2" />
+      <unit id="720935663348570820" at="185,225,189,5" name="ArduinoML.generator.template.main.QueriesGenerated$3" />
+    </file>
+  </root>
+  <root nodeRef="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700436383">
+    <file name="QueriesGenerated.java">
+      <node id="2874933167362564758" at="29,112,30,382" concept="5" />
+      <node id="8241053244742352491" at="150,94,151,184" concept="5" />
+      <scope id="2874933167362562168" at="29,112,30,382" />
+      <scope id="8241053244742352485" at="150,94,151,184" />
+    </file>
+  </root>
+  <root nodeRef="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8218746718700456150">
+    <file name="QueriesGenerated.java">
+      <node id="1196700686619299165" at="32,112,33,388" concept="5" />
+      <scope id="1196700686619299159" at="32,112,33,388" />
+    </file>
+  </root>
+  <root nodeRef="r:38e072e0-de73-4db8-bda3-de3ebf74f73e(ArduinoML.generator.template.main@generator)/8241053244742492186">
+    <file name="QueriesGenerated.java">
+      <node id="8687030231814216217" at="71,112,72,175" concept="5" />
+      <node id="8687030231814216225" at="74,112,75,388" concept="5" />
+      <node id="8687030231814216239" at="77,112,78,388" concept="5" />
+      <node id="8687030231814216253" at="80,112,81,388" concept="5" />
+      <node id="8687030231814216267" at="83,112,84,388" concept="5" />
+      <node id="8687030231814216276" at="84,388,85,0" concept="6" />
+      <node id="8687030231814216282" at="87,112,88,388" concept="5" />
+      <node id="8687030231814216296" at="90,112,91,388" concept="5" />
+      <node id="8687030231814216310" at="93,112,94,388" concept="5" />
+      <node id="2874933167362936301" at="96,112,97,175" concept="5" />
+      <node id="720935663348340360" at="99,111,100,175" concept="5" />
+      <node id="8687030231814216322" at="153,94,154,64" concept="5" />
+      <node id="720935663348616480" at="156,93,157,64" concept="5" />
+      <node id="720935663348668842" at="159,93,160,65" concept="5" />
+      <scope id="8687030231814216216" at="71,112,72,175" />
+      <scope id="8687030231814216224" at="74,112,75,388" />
+      <scope id="8687030231814216238" at="77,112,78,388" />
+      <scope id="8687030231814216252" at="80,112,81,388" />
+      <scope id="8687030231814216281" at="87,112,88,388" />
+      <scope id="8687030231814216295" at="90,112,91,388" />
+      <scope id="8687030231814216309" at="93,112,94,388" />
+      <scope id="2874933167362931573" at="96,112,97,175" />
+      <scope id="720935663348339533" at="99,111,100,175" />
+      <scope id="8687030231814216321" at="153,94,154,64" />
+      <scope id="720935663348648036" at="156,93,157,64" />
+      <scope id="720935663348661180" at="159,93,160,65" />
+      <scope id="8687030231814216266" at="83,112,85,0" />
+    </file>
+  </root>
+</debug-info>
+
