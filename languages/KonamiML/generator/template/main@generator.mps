@@ -95,6 +95,10 @@
       </concept>
     </language>
     <language id="5edee0cf-46e1-49f9-971e-6b9e2e5cae16" name="ArduinoML">
+      <concept id="720935663348784259" name="ArduinoML.structure.Message" flags="ng" index="2dOtID">
+        <property id="720935663348784287" name="message" index="2dOtIP" />
+      </concept>
+      <concept id="720935663350139700" name="ArduinoML.structure.UserMessage" flags="ng" index="2dT0Ku" />
       <concept id="8241053244741659145" name="ArduinoML.structure.LCD" flags="ng" index="DHz1a" />
       <concept id="8709373201413168302" name="ArduinoML.structure.ITransition" flags="ng" index="Ql3hA">
         <property id="8709373201413168303" name="target" index="Ql3hB" />
@@ -119,6 +123,10 @@
       </concept>
       <concept id="2874933167362214205" name="ArduinoML.structure.pin" flags="ng" index="3Qud_6">
         <property id="2874933167362214206" name="pinNumber" index="3Qud_5" />
+      </concept>
+      <concept id="2874933167362130319" name="ArduinoML.structure.print" flags="ng" index="3Qvx7O">
+        <reference id="2874933167363432864" name="lcd" index="3QiB7r" />
+        <child id="720935663348784145" name="message" index="2dOtGV" />
       </concept>
       <concept id="8218746718699842484" name="ArduinoML.structure.Sensor" flags="ng" index="3T334G">
         <property id="8241053244741662229" name="is" index="DHyLm" />
@@ -1734,8 +1742,30 @@
         <ref role="3uOfX6" node="2boBeE4SiRj" resolve="green_led" />
       </node>
       <node concept="3QjK58" id="2boBeE4SPgz" role="3uOfKK">
-        <property role="3QjK4O" value="true" />
+        <property role="3QjK4O" value="false" />
         <ref role="3uOfX6" node="2boBeE4Sg9X" resolve="red_led" />
+      </node>
+      <node concept="3Qvx7O" id="44NulWdhFS_" role="3uOfKK">
+        <ref role="3QiB7r" node="44NulWdgqns" resolve="lcd" />
+        <node concept="2dT0Ku" id="44NulWdhFSH" role="2dOtGV">
+          <property role="2dOtIP" value="&quot;&quot;" />
+          <node concept="17Uvod" id="44NulWdhFSJ" role="lGtFl">
+            <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/720935663348784259/720935663348784287" />
+            <property role="2qtEX9" value="message" />
+            <node concept="3zFVjK" id="44NulWdhFSM" role="3zH0cK">
+              <node concept="3clFbS" id="44NulWdhFSN" role="2VODD2">
+                <node concept="3clFbF" id="44NulWdhFST" role="3cqZAp">
+                  <node concept="2OqwBi" id="44NulWdhFSO" role="3clFbG">
+                    <node concept="3TrcHB" id="44NulWdhFSR" role="2OqNvi">
+                      <ref role="3TsBF5" to="38xb:44NulWde_ac" resolve="messageOnSuccess" />
+                    </node>
+                    <node concept="30H73N" id="44NulWdhFSS" role="2Oq$k0" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="Ql3iZ" id="2aywW0JrJHz" role="3uOfKq">
         <property role="Ql3hB" value="success" />
@@ -1752,6 +1782,28 @@
       <node concept="3QjK58" id="2boBeE4SPgF" role="3uOfKK">
         <property role="3QjK4O" value="true" />
         <ref role="3uOfX6" node="2boBeE4Sg9X" resolve="red_led" />
+      </node>
+      <node concept="3Qvx7O" id="44NulWdhHMc" role="3uOfKK">
+        <ref role="3QiB7r" node="44NulWdgqns" resolve="lcd" />
+        <node concept="2dT0Ku" id="44NulWdhHMk" role="2dOtGV">
+          <property role="2dOtIP" value="&quot;&quot;" />
+          <node concept="17Uvod" id="44NulWdhHMn" role="lGtFl">
+            <property role="P4ACc" value="5edee0cf-46e1-49f9-971e-6b9e2e5cae16/720935663348784259/720935663348784287" />
+            <property role="2qtEX9" value="message" />
+            <node concept="3zFVjK" id="44NulWdhHMq" role="3zH0cK">
+              <node concept="3clFbS" id="44NulWdhHMr" role="2VODD2">
+                <node concept="3clFbF" id="44NulWdhHMx" role="3cqZAp">
+                  <node concept="2OqwBi" id="44NulWdhHMs" role="3clFbG">
+                    <node concept="3TrcHB" id="44NulWdhHMv" role="2OqNvi">
+                      <ref role="3TsBF5" to="38xb:44NulWde_aQ" resolve="messageOnFail" />
+                    </node>
+                    <node concept="30H73N" id="44NulWdhHMw" role="2Oq$k0" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="Ql3iZ" id="2aywW0JrIBT" role="3uOfKq">
         <property role="Ql3hW" value="true" />
