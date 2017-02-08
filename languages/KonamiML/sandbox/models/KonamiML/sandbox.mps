@@ -20,37 +20,13 @@
   </registry>
   <node concept="1XHQZd" id="20XqqltyHNF">
     <property role="d8__M" value="3" />
-    <property role="1c2iJj" value="&quot;Success&quot;" />
-    <property role="1c2iJD" value="&quot;Fail&quot;" />
-    <node concept="1XHKpN" id="2aywW0Ju1xn" role="1XHKph">
+    <property role="1c2iJj" value="Success" />
+    <property role="1c2iJD" value="Fail" />
+    <node concept="1XHKpN" id="44NulWdiDPp" role="1XHKph">
       <property role="1XHKpn" value="U" />
     </node>
-    <node concept="1XHKpN" id="346r8oY$dE3" role="1XHKph">
-      <property role="1XHKpn" value="U" />
-    </node>
-    <node concept="1XHKpN" id="2aywW0Ju1xp" role="1XHKph">
+    <node concept="1XHKpN" id="44NulWdiDPw" role="1XHKph">
       <property role="1XHKpn" value="D" />
-    </node>
-    <node concept="1XHKpN" id="346r8oY$dE9" role="1XHKph">
-      <property role="1XHKpn" value="D" />
-    </node>
-    <node concept="1XHKpN" id="2aywW0Ju1xs" role="1XHKph">
-      <property role="1XHKpn" value="L" />
-    </node>
-    <node concept="1XHKpN" id="2aywW0JvPub" role="1XHKph">
-      <property role="1XHKpn" value="R" />
-    </node>
-    <node concept="1XHKpN" id="346r8oY$dEg" role="1XHKph">
-      <property role="1XHKpn" value="L" />
-    </node>
-    <node concept="1XHKpN" id="346r8oY$dEo" role="1XHKph">
-      <property role="1XHKpn" value="R" />
-    </node>
-    <node concept="1XHKpN" id="346r8oY$dEx" role="1XHKph">
-      <property role="1XHKpn" value="U" />
-    </node>
-    <node concept="1XHKpN" id="346r8oY$dFl" role="1XHKph">
-      <property role="1XHKpn" value="U" />
     </node>
   </node>
 </model>

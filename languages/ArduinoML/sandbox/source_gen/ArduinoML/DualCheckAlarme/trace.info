@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:2eef411c-8634-472a-beaa-330cf89d1a14(ArduinoML.DualCheckAlarme)/4698232285429661661">
+    <file name="map_App.java">
+      <node id="4698232285429661661" at="8,42,9,57" concept="1" />
+      <node id="4698232285429661661" at="9,57,10,59" concept="1" />
+      <node id="4698232285429661661" at="10,59,11,0" concept="3" />
+      <node id="4698232285429661661" at="11,0,12,47" concept="1" />
+      <node id="4698232285429661661" at="12,47,13,0" concept="3" />
+      <node id="4698232285429661661" at="13,0,14,0" concept="3" />
+      <node id="4698232285429661661" at="14,0,15,0" concept="3" />
+      <node id="4698232285429661661" at="15,0,16,49" concept="1" />
+      <node id="4698232285429661661" at="16,49,17,41" concept="1" />
+      <node id="4698232285429661693" at="18,5,19,27" concept="2" />
+      <node id="4698232285429661693" at="19,27,20,69" concept="1" />
+      <node id="4698232285429661718" at="22,5,23,27" concept="2" />
+      <node id="4698232285429661718" at="23,27,24,69" concept="1" />
+      <node id="4698232285429661736" at="25,5,26,56" concept="1" />
+      <node id="4698232285429661661" at="26,56,27,41" concept="1" />
+      <node id="4698232285429661661" at="27,41,28,0" concept="3" />
+      <node id="4698232285429661661" at="28,0,29,28" concept="1" />
+      <node id="4698232285429661661" at="29,28,30,0" concept="3" />
+      <node id="4698232285429661661" at="30,0,31,51" concept="1" />
+      <node id="4698232285429661661" at="31,51,32,64" concept="1" />
+      <node id="4698232285429661661" at="32,64,33,0" concept="3" />
+      <node id="4698232285429661661" at="33,0,34,55" concept="1" />
+      <node id="4698232285429661661" at="34,55,35,41" concept="1" />
+      <node id="4698232285429664875" at="35,41,36,68" concept="1" />
+      <node id="4698232285429661661" at="36,68,37,73" concept="1" />
+      <node id="4698232285429661661" at="37,73,38,107" concept="1" />
+      <node id="4698232285429661661" at="38,107,39,72" concept="1" />
+      <node id="4698232285429661661" at="39,72,40,33" concept="1" />
+      <node id="4698232285429661661" at="40,33,41,31" concept="1" />
+      <node id="4698232285429661661" at="41,31,42,112" concept="1" />
+      <node id="4698232285429661661" at="42,112,43,73" concept="1" />
+      <node id="4698232285429661661" at="43,73,44,33" concept="1" />
+      <node id="4698232285429661661" at="44,33,45,31" concept="1" />
+      <node id="4698232285429661661" at="45,31,46,28" concept="1" />
+      <node id="4698232285429661661" at="46,28,47,30" concept="1" />
+      <node id="4698232285429661661" at="47,30,48,56" concept="1" />
+      <node id="4698232285429661661" at="48,56,49,41" concept="1" />
+      <node id="4698232285429664877" at="49,41,50,68" concept="1" />
+      <node id="4698232285429661661" at="50,68,51,73" concept="1" />
+      <node id="4698232285429661661" at="51,73,52,106" concept="1" />
+      <node id="4698232285429661661" at="52,106,53,71" concept="1" />
+      <node id="4698232285429661661" at="53,71,54,33" concept="1" />
+      <node id="4698232285429661661" at="54,33,55,31" concept="1" />
+      <node id="4698232285429661661" at="55,31,56,112" concept="1" />
+      <node id="4698232285429661661" at="56,112,57,70" concept="1" />
+      <node id="4698232285429661661" at="57,70,58,33" concept="1" />
+      <node id="4698232285429661661" at="58,33,59,31" concept="1" />
+      <node id="4698232285429661661" at="59,31,60,28" concept="1" />
+      <node id="4698232285429661661" at="60,28,61,30" concept="1" />
+      <node id="4698232285429661661" at="61,30,62,57" concept="1" />
+      <node id="4698232285429661661" at="62,57,63,41" concept="1" />
+      <node id="4698232285429664879" at="63,41,64,68" concept="1" />
+      <node id="4698232285429661661" at="64,68,65,73" concept="1" />
+      <node id="4698232285429661661" at="65,73,66,107" concept="1" />
+      <node id="4698232285429661661" at="66,107,67,70" concept="1" />
+      <node id="4698232285429661661" at="67,70,68,33" concept="1" />
+      <node id="4698232285429661661" at="68,33,69,31" concept="1" />
+      <node id="4698232285429661661" at="69,31,70,111" concept="1" />
+      <node id="4698232285429661661" at="70,111,71,71" concept="1" />
+      <node id="4698232285429661661" at="71,71,72,33" concept="1" />
+      <node id="4698232285429661661" at="72,33,73,31" concept="1" />
+      <node id="4698232285429661661" at="73,31,74,28" concept="1" />
+      <node id="4698232285429661661" at="74,28,75,30" concept="1" />
+      <node id="4698232285429661661" at="75,30,76,54" concept="1" />
+      <node id="4698232285429661661" at="76,54,77,41" concept="1" />
+      <node id="4698232285429661810" at="77,41,78,69" concept="1" />
+      <node id="4698232285429661661" at="78,69,79,73" concept="1" />
+      <node id="4698232285429661661" at="79,73,80,106" concept="1" />
+      <node id="4698232285429661661" at="80,106,81,73" concept="1" />
+      <node id="4698232285429661661" at="81,73,82,33" concept="1" />
+      <node id="4698232285429661661" at="82,33,83,31" concept="1" />
+      <node id="4698232285429661661" at="83,31,84,111" concept="1" />
+      <node id="4698232285429661661" at="84,111,85,72" concept="1" />
+      <node id="4698232285429661661" at="85,72,86,33" concept="1" />
+      <node id="4698232285429661661" at="86,33,87,31" concept="1" />
+      <node id="4698232285429661661" at="87,31,88,28" concept="1" />
+      <node id="4698232285429661661" at="88,28,89,30" concept="1" />
+      <node id="4698232285429661661" at="89,30,90,0" concept="3" />
+      <node id="4698232285429661661" at="90,0,91,92" concept="1" />
+      <node id="4698232285429661693" at="17,41,21,5" concept="0" />
+      <node id="4698232285429661718" at="21,5,25,5" concept="0" />
+      <node id="4698232285429661661" at="8,0,93,0" concept="4" trace="main#([Ljava/lang/String;)V" />
+      <scope id="4698232285429661693" at="18,5,20,69">
+        <var name="analogic" id="4698232285429661693" />
+      </scope>
+      <scope id="4698232285429661718" at="22,5,24,69">
+        <var name="analogic" id="4698232285429661718" />
+      </scope>
+      <scope id="4698232285429661661" at="8,42,91,92" />
+      <scope id="4698232285429661661" at="8,0,93,0">
+        <var name="args" id="4698232285429661661" />
+      </scope>
+      <unit id="4698232285429661661" at="6,0,94,0" name="ArduinoML.DualCheckAlarme.map_App" />
+    </file>
+  </root>
+</debug-info>
+

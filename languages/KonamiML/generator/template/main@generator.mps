@@ -118,6 +118,9 @@
       <concept id="6483884641801182720" name="ArduinoML.structure.AnalogTransition" flags="ng" index="3uOfMU">
         <property id="8709373201413083461" name="status" index="QlnAd" />
       </concept>
+      <concept id="2874933167363427604" name="ArduinoML.structure.clear" flags="ng" index="3Qi_PJ">
+        <reference id="2874933167363432867" name="lcd" index="3QiB7o" />
+      </concept>
       <concept id="2874933167363117363" name="ArduinoML.structure.StatutUpdate" flags="ng" index="3QjK58">
         <property id="2874933167363117391" name="statut" index="3QjK4O" />
       </concept>
@@ -933,7 +936,7 @@
     <node concept="3T3p6N" id="2boBeE4Sg9X" role="3T3nKE">
       <property role="TrG5h" value="red_led" />
       <node concept="3Qud_6" id="2boBeE4Shwz" role="3Qud$V">
-        <property role="3Qud_5" value="8" />
+        <property role="3Qud_5" value="10" />
       </node>
     </node>
     <node concept="3T3p6N" id="2boBeE4SiRj" role="3T3nKE">
@@ -1745,6 +1748,9 @@
         <property role="3QjK4O" value="false" />
         <ref role="3uOfX6" node="2boBeE4Sg9X" resolve="red_led" />
       </node>
+      <node concept="3Qi_PJ" id="44NulWdmfSE" role="3uOfKK">
+        <ref role="3QiB7o" node="44NulWdgqns" resolve="lcd" />
+      </node>
       <node concept="3Qvx7O" id="44NulWdhFS_" role="3uOfKK">
         <ref role="3QiB7r" node="44NulWdgqns" resolve="lcd" />
         <node concept="2dT0Ku" id="44NulWdhFSH" role="2dOtGV">
@@ -1782,6 +1788,9 @@
       <node concept="3QjK58" id="2boBeE4SPgF" role="3uOfKK">
         <property role="3QjK4O" value="true" />
         <ref role="3uOfX6" node="2boBeE4Sg9X" resolve="red_led" />
+      </node>
+      <node concept="3Qi_PJ" id="44NulWdmgoj" role="3uOfKK">
+        <ref role="3QiB7o" node="44NulWdgqns" resolve="lcd" />
       </node>
       <node concept="3Qvx7O" id="44NulWdhHMc" role="3uOfKK">
         <ref role="3QiB7r" node="44NulWdgqns" resolve="lcd" />
