@@ -168,7 +168,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="2aywW0JpX3e" role="3EZMnx">
-        <ref role="1NtTu8" to="67j:7ztUcxeytML" resolve="opreation" />
+        <ref role="1NtTu8" to="67j:7ztUcxeytML" resolve="operator" />
       </node>
       <node concept="3F0A7n" id="2aywW0JpX3s" role="3EZMnx">
         <ref role="1NtTu8" to="67j:7ztUcxey955" resolve="status" />
@@ -182,7 +182,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="79u6$drWWg3">
-    <ref role="1XX52x" to="67j:79u6$drU2C9" resolve="LCD_init" />
+    <ref role="1XX52x" to="67j:79u6$drU2C9" resolve="LCD" />
     <node concept="3EZMnI" id="2v_O7JhEpzD" role="2wV5jI">
       <node concept="l2Vlx" id="2v_O7JhEpzE" role="2iSdaV" />
       <node concept="3F0ifn" id="2v_O7JhEpzF" role="3EZMnx">
@@ -216,7 +216,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="2aywW0JpttK" role="3EZMnx">
-        <ref role="1NtTu8" to="67j:7ztUcxeytML" resolve="opreation" />
+        <ref role="1NtTu8" to="67j:7ztUcxeytML" resolve="operator" />
       </node>
       <node concept="3F0A7n" id="2aywW0JpttQ" role="3EZMnx">
         <ref role="1NtTu8" to="67j:7ztUcxeytMO" resolve="status" />
@@ -271,7 +271,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="C1hME7O9KG">
-    <ref role="1XX52x" to="67j:C1hME7O9Jm" resolve="temperature" />
+    <ref role="1XX52x" to="67j:C1hME7O9Jm" resolve="Temperature" />
     <node concept="3EZMnI" id="C1hME7PEom" role="2wV5jI">
       <node concept="l2Vlx" id="C1hME7PEon" role="2iSdaV" />
       <node concept="3F0ifn" id="C1hME7PEoo" role="3EZMnx">

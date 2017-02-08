@@ -79,6 +79,18 @@
       <node concept="3F0A7n" id="2aywW0JwdEY" role="3EZMnx">
         <ref role="1NtTu8" to="38xb:2aywW0JwdEM" resolve="nbFail" />
       </node>
+      <node concept="3F0ifn" id="44NulWde_af" role="3EZMnx">
+        <property role="3F0ifm" value="on success :" />
+      </node>
+      <node concept="3F0A7n" id="44NulWde_aC" role="3EZMnx">
+        <ref role="1NtTu8" to="38xb:44NulWde_ac" resolve="messageOnSuccess" />
+      </node>
+      <node concept="3F0ifn" id="44NulWde_aU" role="3EZMnx">
+        <property role="3F0ifm" value="on fail :" />
+      </node>
+      <node concept="3F0A7n" id="44NulWde_bn" role="3EZMnx">
+        <ref role="1NtTu8" to="38xb:44NulWde_aQ" resolve="messageOnFail" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="2aywW0Jtnao">

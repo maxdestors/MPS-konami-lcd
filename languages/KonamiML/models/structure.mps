@@ -80,6 +80,16 @@
       <property role="TrG5h" value="nbFail" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="1TJgyi" id="44NulWde_ac" role="1TKVEl">
+      <property role="IQ2nx" value="4698232285428339340" />
+      <property role="TrG5h" value="messageOnSuccess" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="44NulWde_aQ" role="1TKVEl">
+      <property role="IQ2nx" value="4698232285428339382" />
+      <property role="TrG5h" value="messageOnFail" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="AxPO7" id="20Xqqltywq4">
     <property role="TrG5h" value="Touche" />

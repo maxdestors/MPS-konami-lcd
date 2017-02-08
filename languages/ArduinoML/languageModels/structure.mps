@@ -9,7 +9,6 @@
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -196,12 +195,6 @@
     <property role="EcuMT" value="8241053244741659145" />
     <property role="TrG5h" value="LCD" />
     <ref role="1TJDcQ" node="78eQDyb0OGF" resolve="Actuator" />
-    <node concept="1TJgyj" id="20XqqltyqZm" role="1TKVEi">
-      <property role="IQ2ns" value="2323129141752868822" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="pins" />
-      <ref role="20lvS9" to="tpee:gPCKINj" resolve="Number" />
-    </node>
   </node>
   <node concept="PlHQZ" id="7ztUcxeytMI">
     <property role="EcuMT" value="8709373201413168302" />
